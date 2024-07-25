@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+	<query name="AddCustomer">
+		<![CDATA[
+        INSERT INTO CUSTOMER (USERID, USERNAME, EMAIL, FIRST_NAME, LAST_NAME, CREATED_ON, IS_ACTIVE)
+        VALUES (@UserId, @Username, @Email, @FirstName, @LastName, @CreatedOn, @IsActive)
+        ]]>
+	</query>
+	<query name="DeleteCustomer">
+		<![CDATA[
+        DELETE FROM CUSTOMER WHERE USERID = @UserId
+        ]]>
+	</query>
+	<query name="GetAllCustomers">
+		<![CDATA[
+        SELECT * FROM CUSTOMER
+        ]]>
+	</query>
+	<query name="UpdateCustomer">
+		<![CDATA[
+        UPDATE CUSTOMER SET USERNAME = @Username, EMAIL = @Email, FIRST_NAME = @FirstName, LAST_NAME = @LastName, IS_ACTIVE = @IsActive WHERE USERID = @UserId
+        ]]>
+	</query>
+	<query name="GetCustomerById">
+		<![CDATA[
+        SELECT * FROM CUSTOMER WHERE USERID = @UserId
+        ]]>
+	</query>
+</queries>

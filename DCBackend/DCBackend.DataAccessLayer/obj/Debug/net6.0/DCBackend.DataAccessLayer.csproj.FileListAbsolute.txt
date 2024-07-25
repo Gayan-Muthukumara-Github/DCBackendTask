@@ -1,0 +1,12 @@
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\bin\Debug\net6.0\DCBackend.DataAccessLayer.deps.json
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\bin\Debug\net6.0\DCBackend.DataAccessLayer.dll
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\bin\Debug\net6.0\DCBackend.DataAccessLayer.pdb
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.csproj.AssemblyReference.cache
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.AssemblyInfoInputs.cache
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.AssemblyInfo.cs
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.dll
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\refint\DCBackend.DataAccessLayer.dll
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\DCBackend.DataAccessLayer.pdb
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend.DataAccessLayer\obj\Debug\net6.0\ref\DCBackend.DataAccessLayer.dll
