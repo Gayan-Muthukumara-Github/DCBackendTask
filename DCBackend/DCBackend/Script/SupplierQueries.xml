@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+	<query name="AddSupplier">
+		<![CDATA[
+			INSERT INTO SUPPLIER (SUPPLIER_ID, SUPPLIER_NAME, CREATED_ON, IS_ACTIVE) VALUES (@SupplierId, @SupplierName, @CreatedOn, @IsActive)
+        ]]>
+	</query>
+	<query name="SupplierExists">
+		<![CDATA[
+		SELECT 1 FROM SUPPLIER WHERE SUPPLIER_NAME = @SupplierName
+		]]>
+	</query>
+	<query name="SupplierIdExists">
+		<![CDATA[
+		SELECT 1 FROM SUPPLIER WHERE SUPPLIER_ID = @SupplierId
+		]]>
+	</query>
+</queries>
+

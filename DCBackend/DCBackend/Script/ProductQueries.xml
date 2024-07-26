@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+	<query name="AddProduct">
+		<![CDATA[
+			INSERT INTO PRODUCT (PRODUCT_ID, PRODUCT_NAME, UNIT_PRICE, SUPPLIER_ID, CREATED_ON, IS_ACTIVE) VALUES (@ProductId, @ProductName, @UnitPrice, @SupplierId, @CreatedOn, @IsActive)
+        ]]>
+	</query>
+	<query name="ProductExists">
+		<![CDATA[
+		SELECT 1 FROM PRODUCT WHERE PRODUCT_NAME = @ProductName
+		]]>
+	</query>
+	<query name="ProductIdExists">
+		<![CDATA[
+		SELECT 1 FROM PRODUCT WHERE PRODUCT_ID = @ProductId
+		]]>
+	</query>
+
+</queries>
+

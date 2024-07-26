@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Osk5kSJs/N6G/c9t4qpw4LTjj8IFHAubiXPOpJ1TRkMyz0yJsKVPr3xB76nUpufxF5yMc9wC+29A+NHDREwFrw==",
+  "dgSpecHash": "me65PPz2tUfYmDk1I9+2Mn3Br+GfnibNstRGfSc47adBM+JFFenpo6G4aAd/HNPf/ydhQAWqI9fAv4Vbg3Vkig==",
   "success": true,
   "projectFilePath": "D:\\DEVELOPMENT\\DCBackend\\DCBackend\\DCBackend\\DCBackend.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,7 @@
     "C:\\Users\\gayan.m\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\gayan.m\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\gayan.m\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\gayan.m\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\gayan.m\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
     "C:\\Users\\gayan.m\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\gayan.m\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

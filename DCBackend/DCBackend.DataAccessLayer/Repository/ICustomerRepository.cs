@@ -11,9 +11,9 @@ namespace DCBackend.DataAccessLayer.Repository
     {
         void AddCustomer(Customer customer);
         IEnumerable<Customer> GetAllCustomers();
-        Customer GetCustomerById(Guid userId);
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(Guid userId);
         IEnumerable<ActiveOrder> GetActiveOrdersByCustomer(Guid userId);
+        bool CustomerIdExists(Guid userId);
     }
 }

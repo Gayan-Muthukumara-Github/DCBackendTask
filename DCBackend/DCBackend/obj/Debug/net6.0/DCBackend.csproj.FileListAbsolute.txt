@@ -38,4 +38,5 @@ D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\bin\Debug\net6.0\DCBackend.DataAcce
 D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\bin\Debug\net6.0\DCBackend.DataAccessLayer.pdb
 D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\obj\Debug\net6.0\DCBackend.csproj.AssemblyReference.cache
 D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\obj\Debug\net6.0\DCBackend.csproj.CopyComplete
-D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\bin\Debug\net6.0\Script\SQLQueries.xml
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\DEVELOPMENT\DCBackend\DCBackend\DCBackend\bin\Debug\net6.0\Script\CustomerQueries.xml

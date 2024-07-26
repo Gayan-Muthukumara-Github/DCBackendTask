@@ -26,4 +26,15 @@
         SELECT * FROM CUSTOMER WHERE USERID = @UserId
         ]]>
 	</query>
+	<query name="CustomerExists">
+		<![CDATA[
+		SELECT 1 FROM CUSTOMER WHERE EMAIL = @Email OR USERNAME = @Username
+		]]>
+	</query>
+	<query name="CustomerIdExists">
+		<![CDATA[
+		SELECT 1 FROM CUSTOMER WHERE USERID = @UserId
+		]]>
+	</query>
+
 </queries>

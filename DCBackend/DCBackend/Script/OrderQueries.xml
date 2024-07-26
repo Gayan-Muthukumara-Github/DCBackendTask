@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<queries>
+	<query name="AddOrder">
+		<![CDATA[
+			INSERT INTO [ORDER] (ORDER_ID, PRODUCT_ID, ORDER_STATUS, ORDER_TYPE, ORDER_BY, ORDER_ON, SHIPPED_ON, IS_ACTIVE) VALUES (@OrderId, @ProductId, @OrderStatus, @OrderType, @OrderBy, @OrderedOn, @ShippedOn, @IsActive)
+        ]]>
+	</query>
+
+</queries>
+

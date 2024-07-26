@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "7f5a3eb4-7759-4df6-b461-7b5e9fbdb6c8",
+		"name": "OtherCollectionDCBackend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16497403"
+	},
+	"item": [
+		{
+			"name": "CreateSupplier",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"supplierName\": \"GN Supplies\",\r\n  \"isActive\": true\r\n}\r\n\r\n\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/supplier/CreateSupplier"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateProduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"productName\": \"Product 2\",\r\n  \"unitPrice\": 30.99,\r\n  \"supplierId\": \"FF7CAD42-902C-43DD-BCEA-B24C980AD309\",\r\n  \"isActive\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/product/CreateProduct"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrder",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ProductId\": \"DDCA387E-C9D8-477B-AFC4-8C7D45DB0123\",\r\n    \"OrderStatus\": 1,\r\n    \"OrderType\": 1,\r\n    \"OrderBy\": \"4622919D-596C-47C9-9A2C-8C98682EB309\",\r\n    \"ShippedOn\": \"2024-07-29T12:34:56\",\r\n    \"IsActive\": true\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/order/CreateOrder"
+			},
+			"response": []
+		}
+	]
+}

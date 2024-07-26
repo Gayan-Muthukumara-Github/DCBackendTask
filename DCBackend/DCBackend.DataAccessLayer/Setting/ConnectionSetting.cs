@@ -8,6 +8,6 @@ namespace DCBackend.DataAccessLayer.Setting
 {
     public class ConnectionSetting
     {
-        public string SQLString { get; set; }
+        public string? SQLString { get; set; }
     }
 }

@@ -7,13 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Script\SQLQueries.xml" />
+    <None Remove="Script\CustomerQueries.xml" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Script\SQLQueries.xml">
+    <EmbeddedResource Include="Script\CustomerQueries.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>

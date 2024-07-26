@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "e53790a4-b27d-4aef-8d80-1ec6987e2451",
+		"name": "CustomerCollectionDCBackendTask",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "16497403"
+	},
+	"item": [
+		{
+			"name": "GetAllCustomers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/customer/GetAllCustomers"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"username\": \"nuwanp\",\r\n        \"email\": \"nuwan.p@gamil.com\",\r\n        \"firstName\": \"Nuwan\",\r\n        \"lastName\": \"perera\",\r\n        \"isActive\": false\r\n    }\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/customer/CreateCustomer"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCustomer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"gayanmuthukum\",\r\n    \"email\": \"gayan.muth@gamil.com\",\r\n    \"firstName\": \"Gayan\",\r\n    \"lastName\": \"Muthukumara\",\r\n    \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/customer/UpdateCustomer/a79012c2-373c-447f-946d-0d2834a8fb57"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCustomer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5118/api/customer/DeleteCustomer/a79012c2-373c-447f-946d-0d2834a8fb57"
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveOrdersByCustomer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5118/api/customer/GetActiveOrdersByCustomer/4622919D-596C-47C9-9A2C-8C98682EB309"
+			},
+			"response": []
+		}
+	]
+}
